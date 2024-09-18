@@ -1,0 +1,45 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  height: 78px;
+  gap: 4px;
+  background-color: #ffffff;
+}
+
+.input-label {
+  width: 470px;
+  height: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6f6f6f;
+  background-color: #ffffff;
+}
+
+.input-field {
+  width: 468px;
+  height: 48px;
+  padding: 1px;
+  gap: 16px;
+  border: 1px solid #3f3f3f;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1e1e1e;
+}
+
+.input-field::placeholder {
+  width: 444px;
+  height: 24px;
+  opacity: 40%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px;
+}

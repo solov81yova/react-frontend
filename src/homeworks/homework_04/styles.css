@@ -1,0 +1,14 @@
+.homework04_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 249, 247);
+}
+
+.page-title {
+  color: rgb(106, 93, 194);
+  font-size: 30px;
+}

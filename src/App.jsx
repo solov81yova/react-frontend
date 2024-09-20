@@ -24,9 +24,9 @@ function App() {
       {/* Homeworks */}
    {/* <Homework_02 /> */}
    {/* <Homework_03 /> */}
-  {/* <Homework_04 /> */}
+  <Homework_04 />
 
-   <Consultation_02 />
+   {/* <Consultation_02 /> */}
 
     </div>
   );

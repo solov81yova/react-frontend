@@ -4,14 +4,13 @@ import "./styles.css";
 
 function Feedback() {
   const [countLike, setCountLike] = useState(0);
+  const [countDislike, setCountDislike] = useState(0);
 
   const onLike = () => {
     setCountLike((prevValue) => {
       return prevValue + 1;
     });
   };
-
-  const [countDislike, setCountDislike] = useState(0);
 
   const onDislike = () => {
     setCountDislike((prevValue) => {

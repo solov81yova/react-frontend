@@ -1,16 +1,11 @@
-* {
-  background-color: rgb(249, 249, 247);
-}
-
 .homework04_wrapper {
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 50px;
   gap: 30px;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background-color: rgb(249, 249, 247);
 }
 
 .page-title {
